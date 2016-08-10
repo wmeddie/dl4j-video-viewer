@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<VBox alignment="center" minHeight="200" minWidth="200" spacing="8" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.76-ea" fx:controller="sample.MainWindowController">
+
+    <MediaView fx:id="mediaView" />
+    <Label fx:id="prediction" />
+
+    <ChoiceBox fx:id="videoNumber" prefWidth="150.0"/>
+    <Button onMouseClicked="#loadVideo">Play</Button>
+
+</VBox>
